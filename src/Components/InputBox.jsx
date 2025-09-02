@@ -19,9 +19,15 @@ export default function InputBox({ toDo, setToDo }){
         setText("")
     }
     
+    function handleEnterKey(e){
+        if(e.key === "Enter"){
+            handleAddTask()
+        }
+    }
+    
     return (
         <div className="inputWrapper">
-            <input className="taskStyle"value={text} onChange={handleText} id="inputBox"></input>
+            <input className="taskStyle"value={text} onKeyDown={handleEnterKey} onChange={handleText} id="inputBox"></input>
             <button className="taskStyle taskBtn" onClick={handleAddTask}>Add Task</button>
         </div>
     )

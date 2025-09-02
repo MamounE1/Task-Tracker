@@ -1,10 +1,17 @@
-import { useState } from "react"
+import { useState , useEffect } from "react"
 import InputBox from "./inputBox"
 import TaskList from "./TaskList"
 import "../index.css"
 
 export default function Container(){
-    const [toDo, setToDo] = useState([])
+    const [toDo, setToDo] = useState(() => {
+        const saved = localStorage.getItem("toDo")
+        return saved ? JSON.parse(saved) : []
+    })
+
+    useEffect(() => {
+        localStorage.setItem("toDo", JSON.stringify(toDo))
+    }, [toDo])
 
     function deleteTask(id){
         const newArray = toDo.filter(item => item.id != id)

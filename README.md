@@ -4,6 +4,8 @@
 
 A simple and interactive Task Tracker app built with React. Users can add, delete, and mark tasks as completed. Tasks are saved in localStorage, so they persist across page refreshes. This project demonstrates state management, component-based architecture, and handling user interactions in React.
 
+Check out the live app [here](https://task-tracker-mamoun.netlify.app)!
+
 ---
 
 ## Features

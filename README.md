@@ -1,5 +1,38 @@
-<h1>To-Do List App</h1>
-<h2>Summary</h2>
-<p>An app meant to track tasks a user has, and render them as a list for the user to see. It will (soon) allow the user to write their own tasks, and add/remove those tasks.</p>
-<br>
-<p>HTML, CSS, Javascript, and React will be used to create this app.<p>
+# Task Tracker App
+
+## Summary
+
+A simple and interactive To-Do List app built with React. Users can add, delete, and mark tasks as completed. Tasks are saved in localStorage, so they persist across page refreshes. This project demonstrates state management, component-based architecture, and handling user interactions in React.
+
+---
+
+## Features
+
+- Add new tasks via button or Enter key
+- Delete tasks
+- Mark tasks as completed with a checkbox
+- Persistent tasks using localStorage
+- Responsive layout for different screen sizes
+
+---
+
+## Technologies
+
+- React
+- JavaScript
+- HTML5 / CSS3
+- Vite
+
+---
+
+## Future Improvements
+
+- Drag-and-drop task reordering
+- Edit task functionality
+- CSS toggle
+
+---
+
+## License
+
+© 2025 Mamoun Elmamoun. All rights reserved.

@@ -20,7 +20,7 @@ body {
     margin: 150px auto;
     padding: 50px 50px;
     background-color: #58a4b0;
-    width: 465px;
+    max-width: 465px;
     border-radius: 20px;
     overflow-wrap: break-word;
     word-break: break-word;
@@ -30,6 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
   gap: 10px;
 }
 
@@ -62,7 +63,7 @@ body {
   margin: 8px 0;             
   border-radius: 10px;        
   border: 1px solid #1B1B1E; 
-  width: 366px;         
+  max-width: 366px;         
 }
 
 .deleteBtn{

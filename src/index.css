@@ -17,11 +17,11 @@ body {
 }
 
 .container{
-    margin: 150px auto;
-    padding: 50px 50px;
+    margin: 9.375rem auto;
+    padding: 3.125rem;
     background-color: #58a4b0;
-    max-width: 465px;
-    border-radius: 20px;
+    max-width: 29.0625rem;
+    border-radius: 1.25rem;
     overflow-wrap: break-word;
     word-break: break-word;
 }
@@ -31,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .taskBtn {
@@ -44,8 +44,8 @@ body {
   font-size: 1rem;
   background-color: #a9bcd0;
   border: 1px solid #1B1B1E; 
-  padding: 10px 30px;
-  border-radius: 10px;
+  padding: 0.625rem 1.875rem;
+  border-radius: 0.625rem;
 }
 
 .listStyle{
@@ -59,21 +59,21 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #A9BCD0;
-  padding: 10px 15px;
-  margin: 8px 0;             
-  border-radius: 10px;        
-  border: 1px solid #1B1B1E; 
-  max-width: 366px;         
+  padding: 0.625rem 0.9375rem;
+  margin: 0.5rem 0;             
+  border-radius: 0.625rem;        
+  border: 0.0625rem solid #1B1B1E; 
+  max-width: 22.875rem;         
 }
 
 .deleteBtn{
-  padding: 2px 6px;
+  padding: 0.125rem 0.375rem;
   color: #373f51;
   font-weight: 600;
   background-color: #D8DBE2;
-  border: 1px solid #1B1B1E;
-  border-radius: 2px;
-  margin-left: 5px;
+  border: 0.0625rem solid #1B1B1E;
+  border-radius: 0.125rem;
+  margin-left: 0.3125rem;
 }
 
 .completedStyle{
@@ -82,12 +82,12 @@ body {
 }
 
 input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0; 
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
   accent-color: #1B1B1E;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .taskStyle:hover{

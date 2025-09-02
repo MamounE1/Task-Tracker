@@ -16,14 +16,27 @@ body {
   background-color: #1B1B1E;
 }
 
+.headerFooterStyle{
+  background-color: #373F51;
+  text-align: center;
+  color: #58A4B0;
+  padding: 1.25rem;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .container{
-    margin: 9.375rem auto;
-    padding: 3.125rem;
-    background-color: #58a4b0;
-    max-width: 29.0625rem;
-    border-radius: 1.25rem;
-    overflow-wrap: break-word;
-    word-break: break-word;
+  margin: 9.375rem auto;
+  padding: 3.125rem;
+  background-color: #58a4b0;
+  max-width: 29.0625rem;
+  border-radius: 1.25rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .inputWrapper{

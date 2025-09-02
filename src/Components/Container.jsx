@@ -1,5 +1,5 @@
 import { useState , useEffect } from "react"
-import InputBox from "./inputBox"
+import InputBox from "./InputBox"
 import TaskList from "./TaskList"
 import "../index.css"
 

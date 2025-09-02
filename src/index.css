@@ -4,37 +4,96 @@
   box-sizing: border-box;
 }
 
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: #1B1B1E;
 }
 
-.wrapContent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 150px auto 0 auto;;
-    padding: 50px 300px 150px 300px;
+.container{
+    margin: 150px auto;
+    padding: 50px 50px;
     background-color: #58a4b0;
-    max-width: 400px;
-    width: 100%;
+    width: 465px;
     border-radius: 20px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.inputWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .taskBtn {
   white-space: nowrap;
-  color: #373f51;
   font-weight: 600;
-  margin-left: 30px;
-  padding: 10px 40px;
-  border-radius: 10px;
-  border: none;
-  background-color: #a9bcd0;
 }
 
-.taskBox{
+.taskStyle{
+  color: #373f51;
+  font-size: 1rem;
   background-color: #a9bcd0;
-  border: none;
-  padding: 10px 40px;
+  border: 1px solid #1B1B1E; 
+  padding: 10px 30px;
   border-radius: 10px;
+}
+
+.listStyle{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItemBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #A9BCD0;
+  padding: 10px 15px;
+  margin: 8px 0;             
+  border-radius: 10px;        
+  border: 1px solid #1B1B1E; 
+  width: 366px;         
+}
+
+.deleteBtn{
+  padding: 2px 6px;
+  color: #373f51;
+  font-weight: 600;
+  background-color: #D8DBE2;
+  border: 1px solid #1B1B1E;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+
+.completedStyle{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0; 
+  accent-color: #1B1B1E;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.taskStyle:hover{
+  background-color: #D8DBE2;
+}
+
+.deleteBtn:hover{
+  background-color: #1B1B1E;
+  color: white;
 }

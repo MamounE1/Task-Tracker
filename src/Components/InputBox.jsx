@@ -13,14 +13,16 @@ export default function InputBox({ toDo, setToDo }){
             task: text,
             completed: false
         }
-        setToDo([...toDo, task])
+        if(task.task != ""){
+            setToDo([...toDo, task])
+        }
         setText("")
     }
-
+    
     return (
-        <>
-            <input className="taskBox"value={text} onChange={handleText} id="inputBox"></input>
-            <button className="taskBtn" onClick={handleAddTask}>Add Task</button>
-        </>
+        <div className="inputWrapper">
+            <input className="taskStyle"value={text} onChange={handleText} id="inputBox"></input>
+            <button className="taskStyle taskBtn" onClick={handleAddTask}>Add Task</button>
+        </div>
     )
 }

@@ -1,12 +1,12 @@
 import Header from "./Components/Header.jsx"
 import Container from "./Components/Container.jsx" 
-import './index.css';
+import './index.css'
 
 export default function App() {
   return (
     <>
       <Header />
-      <main className="wrapContent">
+      <main className="container">
         <Container/>
       </main>
     </>

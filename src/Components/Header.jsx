@@ -3,7 +3,7 @@ import '../index.css'
 export default function Header(){
     return (
         <header className="headerFooterStyle">
-            <h1>Task Tracker</h1>
+            <h1>Taskflow</h1>
         </header>
     )
 }

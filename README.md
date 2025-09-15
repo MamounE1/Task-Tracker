@@ -2,7 +2,7 @@
 
 ## Summary
 
-A simple and interactive Taskflow app built with React. Users can add, delete, and mark tasks as completed. Tasks are saved in localStorage, so they persist across page refreshes. This project demonstrates state management, component-based architecture, and handling user interactions in React.
+Taskflow is an interactive task management application built with React. Users can add, delete, and mark tasks as completed, with tasks persisted in localStorage to survive page refreshes. This project demonstrates state management, component-based architecture, and handling user interactions in React.
 
 Check out the live app [Taskflow Live Demo](https://task-flow-mamoun.netlify.app/)!
 
@@ -10,11 +10,11 @@ Check out the live app [Taskflow Live Demo](https://task-flow-mamoun.netlify.app
 
 ## Features
 
-- Add new tasks via button or Enter key
-- Delete tasks
-- Mark tasks as completed with a checkbox
-- Persistent tasks using localStorage
-- Responsive layout for different screen sizes
+- **Add Tasks:** Users can add new tasks via the button or by pressing the Enter key.
+- **Delete Tasks:** Remove tasks from the list seamlessly.
+- **Complete Tasks:** Mark tasks as completed using checkboxes.
+- **Persistent Storage:** Tasks are saved in localStorage, maintaining data across sessions.
+- **Responsive Layout:** UI adapts to different screen sizes for mobile and desktop devices.
 
 ---
 
@@ -24,14 +24,15 @@ Check out the live app [Taskflow Live Demo](https://task-flow-mamoun.netlify.app
 - JavaScript
 - HTML5 / CSS3
 - Vite
+- Netlify
 
 ---
 
 ## Future Improvements
 
-- Drag-and-drop task reordering
-- Edit task functionality
-- CSS toggle
+- **Drag-and-Drop Reordering:** Allow users to reorder tasks with drag-and-drop functionality.
+- **Edit Task Functionality:** Enable users to modify task text after creation.
+- **CSS Toggle/Theme:** Add dark mode or customizable styles for better UX.
 
 ---
 
